@@ -23,7 +23,7 @@ var config = {
   // community prefix of the firmware images
   community_prefix: 'gluon-ffod-',
   // firmware version regex
-  version_regex: '-([0-9]+.[0-9]+.[0-9]+([+-~][0-9]+)?)[.-]',
+  version_regex: '(([0-9]+.[0-9]+.[0-9]+(-[a-z]+-[0-9]+)))',
   // relative image paths and branch
   directories: {
     'https://firmware.stormarn.freifunk.net/stable/factory/': 'stable',
